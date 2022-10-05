@@ -1025,7 +1025,7 @@ bool CvCapture_FFMPEG::open(const char* _filename, const VideoCaptureParameters&
 
     unsigned i;
     bool valid = false;
-    int nThreads = 0;
+    int nThreads = 1;
 
     close();
 
